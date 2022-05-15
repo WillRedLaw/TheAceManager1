@@ -1,0 +1,124 @@
+html, body{
+  margin: 0;
+  padding: 5px;
+  font-size: 10pt;
+  font-family: 'Segoe UI', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #c4cddf;
+  background-color: #263D4D;
+   -webkit-box-sizing: border-box;
+  -webkit-app-region: drag;
+  -webkit-user-select: none;
+}
+
+.MainBody{
+
+  border-radius: 5px;
+  
+ 
+}
+
+.ApplicationIcon{
+
+padding: 10px;
+
+
+}
+.icons{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+  
+}
+
+.LoginSection{
+font-size: large;
+border: 3px solid blue;
+border-radius: 2rem;
+padding: 15px;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+-webkit-app-region: no-drag;
+}
+
+.LoginSection > .AdditionalLoginSection{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: small;
+  text-align: center;
+}
+
+.AdditionalButton{
+  display: flex;
+}
+
+.center{
+  justify-content: center;
+}
+
+.USBButton{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin-top: 10px;
+  margin-right: 20px;
+  margin-bottom: 10px;
+  border-radius: 2rem;
+  font-size: large;
+  background-color: white;
+  color: black;
+
+}
+
+.NFCButton{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin-top: 10px;
+  margin-right: 20px;
+  margin-bottom: 10px;
+  border-radius: 2rem;
+  font-size: large;
+  background-color: white;
+  color: black;
+}
+
+
+input[type=email], input[type=password] {
+width: 100%;
+padding: 12px 20px;
+margin: 8px 0;
+display: inline-block;
+border: 1px solid #ccc;
+border-radius: 2rem;
+box-sizing: border-box;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.SubLogin{
+  display: flex;
+  border: 3px solid blue;
+  border-radius: 2rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin-bottom: 10px;
+}
+
+.LoginButton{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin-top: 10px;
+  margin-right: 20px;
+  margin-bottom: 10px;
+  border-radius: 1rem;
+  font-size: large;
+  color: black;
+
+}
+.LoginButton:hover{
+  background-color: blue;
+}
+
+.ExitButton{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin-top: 10px;
+  margin-right: 20px;
+  margin-bottom: 10px;
+  border-radius: 2rem;
+  font-size: large;
+  background-color: white;
+  color: black;
+}
+

@@ -1,0 +1,73 @@
+<html>
+    <head>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js" integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2" crossorigin="anonymous"></script>
+        <meta charset="UTF-8">
+        
+        <link rel="stylesheet" href="../CSS/stylesheetRegristration.css">
+        <script defer src="../javascript/RegristrationRender.js"></script>
+        <script src="../RestfulAPI/server.js"></script>
+
+    </head>
+    <body>
+
+        <section class ="MainBody">
+            <div class = "ApplicationIcon">
+                <img src="../icons/TheAceManger.png" class="icons"/>
+            </div>
+
+            <div class ="RegisterSection">
+
+                <label class="RegisterDetails">Below enter a name, email and password</label>
+
+            
+                <div class="input-group mb-3">
+                    <span class="input-group-text" id="basic-addon2">Name </span>
+                    <input type="text" class="form-control" placeholder="Enter Name" id="EntryName"> 
+                </div>
+
+                <div class="input-group mb-3">
+                    <span class="input-group-text" id="basic-addon2">Email </span>
+                    <input type="text" class="form-control" placeholder="Enter Email"id="EntryEmail"> 
+                </div>
+
+                <div class="input-group mb-3">
+                    <span class="input-group-text" id="basic-addon2">Password </span>
+                    <input type="text" class="form-control" placeholder="Enter Password" id="EntryPassword"> 
+                </div>
+
+                <div class="RegisterButtonSection center">
+                    <button type="button" class="btn btn-primary RegisterButton" id="RegisterButton">Register</button>
+                </div>
+
+                <br>
+                <center><label id="Alert"></label></center>
+                <br>
+
+            </div>
+
+            <div class="Information">
+
+                <label>1. Your name doesn't need to be your own, it can be used to identify your account later.</label>
+                <br>
+                <br>
+                <label>2. You will always be logging into your account with the email and password you have provided.</label>
+                <br>
+                <br>
+                <label>3. You will be able to use the USB and NFC login requirements once your account is set up. This will be in the settings part of your profile.</label>
+                <br>
+                <br>
+                
+                
+
+            </div>
+
+            <div class ="Return center"><a href="../HTML/Login.html">Return to login</a></div>
+            
+            
+
+        </section>
+    </body> 
+</html>

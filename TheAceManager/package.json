@@ -1,0 +1,40 @@
+{
+  "name": "theacemanager",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./src/main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WillRedLaw/TheAceManager.git"
+  },
+  "author": "William Redmond Lawlor",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/WillRedLaw/TheAceManager/issues"
+  },
+  "homepage": "https://github.com/WillRedLaw/TheAceManager#readme",
+  "dependencies": {
+    "@hapi/joi": "^17.1.1",
+    "axios": "^0.26.0",
+    "bcryptjs": "^2.4.3",
+    "boxicons": "^2.0.9",
+    "connect-mongodb-session": "^3.1.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.0",
+    "electron": "^17.1.2",
+    "express": "^4.17.2",
+    "express-session": "^1.17.2",
+    "jquery": "^3.6.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongodb": "^4.2.2",
+    "mongoose": "^6.3.2",
+    "nfc-pcsc": "^0.8.1",
+    "python-shell": "^3.0.1",
+    "serialport": "^10.4.0",
+    "speakeasy": "^2.0.0",
+    "uuid": "^8.3.2"
+  }
+}

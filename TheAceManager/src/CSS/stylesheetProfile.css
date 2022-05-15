@@ -1,0 +1,210 @@
+html, body{
+    margin: 0;
+    padding:0;
+    font-size: 12pt;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #949AA7;
+    background-color: #2C312C;
+  }
+
+  .MainPart{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    border: 1px solid #343B48;
+    -webkit-box-sizing: border-box;
+  }
+
+  .MainPart > .TopBar{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 40px;
+    border-bottom: 3px solid #343B48;
+    background-color: #1B1D23;
+    -webkit-user-select: none;
+
+}
+.TopBar > .TitleBar{ 
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  
+  }
+  .TopBar > .TitleBar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+  }
+  .TitleBar > .toggleButton{
+    width: 45px;
+    height: 40px;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    background-image:"";
+    background-repeat: no-repeat;
+    background-position: center;
+    transition: 0.2;
+    cursor: pointer;
+  }
+  .TitleBar > .toggleButton:hover{
+    background-color: #272C36;
+  
+  }
+  
+  .TitleBar > .toggleButton:active{
+    background-color: #4F9FEE;
+  }
+  
+  .TitleBar > img{
+    margin-left: 10px;
+  }
+
+  .TitleBar>.title{
+    margin-left: 10px;
+    width: 100%;
+    line-height: 30px;
+    margin-top: 5px;
+    padding-bottom: 5px;
+    -webkit-app-region: drag;
+  }
+  
+  .TopBar > .TitleBarBtns{
+    display: flex;  
+    flex-direction: row;
+    width: 120px;
+    height: 40px;
+  }
+  
+  .TitleBarBtns > .TopBtn{
+  
+    width: 40px;
+    height: 40px;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-position: center;
+    transition: 0.2s;
+    cursor: pointer;
+  }
+  
+  .TitleBarBtns > .TopBtn:hover{
+    background-color: #272C36;
+  
+  }
+  
+  .TitleBarBtns > .TopBtn:active{
+    background-color: #4F9FEE;
+  }
+  
+  .TitleBarBtns > .minimizeBtn{
+    background-image: url('../icons/min-w-15.png');
+  }
+  
+  .TitleBarBtns > .maximizeBtn{
+    background-image: url('../icons/max-w-15.png');
+  }
+  
+  .TitleBarBtns > .restoredBtn{
+    background-image: url('../icons/restore-w-15.png');
+  }
+  
+  .TitleBarBtns > .closeBtn{
+    background-image: url('../icons/close-w-15.png');
+  }
+  .MainPart > .contentArea{
+
+    display:flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+  
+  }
+  
+  .contentArea > .leftMenu{
+    width:280px;
+    height: 100%;
+    background-color: #272C36;
+    transition: 0,4s;
+  }
+  
+  .contentArea >.leftMenu ul li {
+    display: block;
+    padding: 15px;
+    padding-left: 0px;
+    border: 2px solid blue;
+    border-radius: 1rem;
+    position: relative;
+    font-family: 'open sans', sans-serif;
+    font-size: 15px;
+    text-align: center;
+    
+  
+  }
+  
+  .contentArea .leftMenu ul{
+    padding: 0px;
+  
+  }
+  
+  .contentArea >.leftMenu ul li:hover{
+    background-color: #4F9FEE;
+  }
+  
+  .contentArea >.leftMenu ul li:active{
+    background-color: #272C36;
+  }
+  
+  .contentArea > .contentPages{
+    width: 100%;
+    height: 100%;
+    -webkit-box-align: center;
+    -webkit-box-pack: center;  
+    display: -webkit-box;
+  }
+  .ProfileBox{
+    background: #2C312C;
+    padding: 3rem;
+    border-radius: 2px;
+    border: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 2px solid blue;
+    border-radius: 2rem;
+
+  }
+  .PasswordDisplay{
+
+    color: black;
+    padding: 1rem;
+    border: 1px solid #333;
+    height: 2rem;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    word-break: break-all;
+    border-radius: .5rem;
+    text-align: center;
+    margin-top: 30px;
+  
+  }
+
+  .PasswordBtn{
+    position: relative;
+    left: 290px;
+    margin-bottom: 20px;
+  }
+
+  .ExtraLogin{
+    margin-top: 20px;
+    margin-right: 10px;
+  }

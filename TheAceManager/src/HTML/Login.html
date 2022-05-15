@@ -1,0 +1,74 @@
+<!---
+
+This is the login part of the application that the user will first see
+
+ - Runs the CSS script - stylesheetLogin.css
+ - Runs the renderer.js upon start up so that any essential parts of the application that needs to run in the background such as the express server, or switching screens.
+ 
+ - Login features - USB, NFC
+
+
+
+-->
+
+<html>
+    <head>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js" integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2" crossorigin="anonymous"></script>
+        <meta charset="UTF-8">
+        
+        <link rel="stylesheet" href="../CSS/stylesheetLogin.css">
+        <script defer src="../javascript/renderer.js"></script>
+
+
+    </head>
+    <body>
+
+        <section class ="MainBody">
+            <div class = "ApplicationIcon">
+
+                
+                <img src="../icons/TheAceManger.png" class="icons"/>
+                
+     
+            </div>
+            <div class = "LoginSection">
+             
+             <label class = "LoginForm">Email: </label>
+             <input  type="email" id="EmailID" placeholder="Enter Email" required>
+     
+             <label class = "LoginForm">Password: </label>
+             <input type="password" id="EnteredPassword" placeholder="Enter Password" required>
+
+             <label id="FailedLogin" class ="FailedLogin"></label>
+             <br>
+             <br>
+                
+             <div class = "AdditionalLoginSection">
+                <label class="center" id="FailedLogin"></label>
+                
+                <label>The following buttons will turn green when there login methods are accepted.</label>
+
+                <label> Make sure to enter your email and password and press the following login button below.</label>
+
+                <label> Please be aware of what is required to log into your account.</label>
+
+             </div>
+
+             <div class="AdditionalButton center">
+                <button class = "btn btn-primary LoginButton" id="USBButton">USB Login</button>
+                <button class = "btn btn-primary LoginButton" id="NFCButton">NFC Login</button> 
+             </div>
+             
+             <div class = "SubLogin center">
+                 <button class="btn btn-primary LoginButton" id="LoginButton">Sign in</button>
+                 <button class = "btn btn-primary LoginButton" id="ExitButton">Exit</button>
+            </div>
+
+            <center><a href="../HTML/Regristration.html">Register here!!</a></center>
+            </div>
+        </section>
+    </body> 
+</html>

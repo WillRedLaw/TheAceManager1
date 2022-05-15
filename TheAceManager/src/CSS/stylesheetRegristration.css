@@ -1,0 +1,75 @@
+html, body{
+
+    margin: 0;
+    padding: 5px;
+    font-size: 10pt;
+    font-family: 'Segoe UI', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #c4cddf;
+    background-color: #263D4D;
+    -webkit-box-sizing: border-box;
+    -webkit-app-region: drag;
+    -webkit-user-select: none;
+
+  }
+  .MainBody{
+    -webkit-app-region: no-drag;
+  }
+
+.ApplicationIcon{
+
+    padding: 10px;
+   
+}
+
+.icons{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px
+    
+}
+
+.RegisterSection{
+    font-size: large;
+    border: 3px solid blue;
+    border-radius: 2rem;
+    padding: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+
+}
+
+.RegisterDetails{
+    display: block;
+    text-align: center;
+    margin-bottom: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.RegisterButtonSection{
+    display: flex;
+}
+
+.Return{
+    margin-top: 10px;
+    display: flex;
+    
+}
+.center{
+    justify-content: center;
+}
+
+.Information{
+    
+    margin-top: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: small;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 5px;
+    border: 3px solid blue;
+    border-radius: 2rem;
+
+}
+
